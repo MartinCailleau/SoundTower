@@ -171,5 +171,32 @@ Ajoutez d’autres animations.
 
 - Faire un build webGL pour le rendu
 
-![image](/img/image7.png)
+![image](/img/image7.gif)
+
+- Uploadez le zip sur le cloud de l’école. Dans notre dossier unity->soundtower>groupeB
+- Comment ajouter du post processing :
+- Import le package post-processing
+    - Menu windows -> package manager -> rechercher post-processing - > installer.
+- Ajouter 2 components à la camera.
+    - PostProcessLayer à configurer ainsi :
+    
+![image](/img/image13.png)
+
+- PostProcessVolume
+
+![image](/img/image31.png)
+
+Cocher IsGlobal et cliquer sur new pour créer un nouveau profile de réglage.
+
+- Cliquez ensuite sur le bouton add effect et choisissez un effet.
+
+![image](/img/image3.png)
+
+- Paramétrez l’effet
+
+![image](/img/image21.png)
+
+- Pour le bloom le mode HDR de la camera doit pas être désactivé
+
+![image](/img/image28.png)
 
