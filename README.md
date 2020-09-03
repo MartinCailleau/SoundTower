@@ -152,3 +152,24 @@ vous pouvez remarquer qu’un component Animator équipé d’un nouveau Control
 
 - Vous pouvez ensuite les sélectionner pour les modifier dans l’inspecteur.
 
+### Étape 9 : Améliorer le rendu graphique.
+- Quelques propositions :
+    - Créez de nouveaux materiaux, modifiez leurs parametres (metallic, smoothness), changez leur couleur.
+    - Create material dans les assets et les assignez aux objets.
+    - Changez la skybox depuis la camera.
+Ajoutez du post processing. (cf page 17)
+Ajoutez des systèmes de particule
+Ajoutez d’autres lumières.
+Ajoutez d’autres animations.
+...
+
+### Étape 10 : Personnaliser l’instrument.
+- Créez votre propre modèl 3D.
+- Ajustez le comportement de l’instrument selon vos envies.( tempo, ambiance sonore, réactivité)
+- Tout ajout supplémentaire est le bienvenu.
+- …
+
+- Faire un build webGL pour le rendu
+
+![image](/img/image7.png)
+
