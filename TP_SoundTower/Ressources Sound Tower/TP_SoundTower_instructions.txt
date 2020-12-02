@@ -1,0 +1,43 @@
+TP sound tower.
+Objectif : Créer un instrument musical et visuel. Utilisant la physique et des scripts pour generer du son.
+
+Fonctionnalités : 
+- lorsqu'une ball percute une marche : 
+    - changer la couleur de la marche
+    - choisir la note à jouer
+    - jouer la note
+    - Attendre x secondes
+    - arrêter le son
+    - remodifier la couleur
+- Quand on clique sur une marche, une balle doit apparaitre au dessus de la marche.
+    - Utilisez le script spawn.cs fourni.
+- Lorsque les balles arrivent au fond du cylindre elles doivent être détruites.
+    - Positionnez une boîte de collision trigger au fond du cylindre
+    - Attachez lui un script qui permet de détruire la balles quand elle entre dans la boîte.
+- Creer un script (rythme) qui va jouer un ou plusieurs sons à une fréquence definie. ( autrement dit, une boite à rythme)
+    - Créez une fonction qui joue un son (une percussion) et l'executer régulierement.
+    - Pour executer régulièrement une fonction vous pouvez utiliser la fonction InvokeRepeating("votreFonction",0,2);
+- Creer un script (background) qui va joueur en boucle une suite de note.
+    - Appuyez vous sur le principe du premier script du tp (SoundTrigger.cs)
+    - Quelques éléments d'aide : 
+        - Créez une fonction qui change la note suivante et executez régulierement:
+            - voici un morceau de l'algo qui vous permet de passer d'une note à l'autre de façon circulaire : 
+            if (i+1 >= notes.Length) {
+                i = 0;
+            }else{
+                ++i;    
+            }
+    - à la différence du script rythme, la note est joué en continue. (cochez l'option "loop" sur l'audio source de l'objet)
+- Ajouter des effets sonores grace à l'audio mixer.
+- Créer un effet visuel en animant une lumière. (créer une animation)
+
+Vous êtes libre dans la forme, à vous d'être imaginatif pour créer une sorte d'instrument de musique experimental.
+
+Modalités de rendu:
+Vous devez fournir un build windows.
+ Nommez votre build suivant cette convention NOM_prenom_soundTower.
+ Archivez les fichiers ci-dessous au format ZIP (nommez également le zip en suivant la convention):
+ -NOM_prenom_soundTower.exe
+ -NOM_prenom_soundTower_DATA
+
+ Merci d'avance pour le respect de ces conditions de rendu.

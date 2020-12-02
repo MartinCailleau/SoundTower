@@ -1,0 +1,12 @@
+TP Sound tower
+
+étapes : 
+- Modéliser et integrer la structure.
+- Créer le système de spawn des balles. (lorsqu'on click sur une marche, une balle spawn au dessus)
+- Detruire les balles au fond de la structure.
+- Les marches de la structure jouent un son et changent de couleur lorsqu'une balle les percute.
+- Créer un rythme
+- Créer une suite de note joué en boucle.
+- La camera est déplacable par le joueur.
+- Créer un effet lumineux en animant une point light.
+- Utiliser les effets sonores de l'audio mixer.
