@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\marti\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\marti\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Unity_Project.-1823347265.00" t="ExcludeRecursive" />
+    <e p="C:\Users\marti\Documents\_Formation\SoundTower\TP_SoundTower\Unity_Project" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="BackgroundNote.cs" t="Include" />
+        <e p="Controller.cs" t="Include" />
+        <e p="Destroy.cs" t="Include" />
+        <e p="Explosion.cs" t="Include" />
+        <e p="GameManager.cs" t="Include" />
+        <e p="Melody.cs" t="Include" />
+        <e p="OrbitalCameraControl.cs" t="Include" />
+        <e p="ParticleFollowMouse.cs" t="Include" />
+        <e p="ParticlePlexus.cs" t="Include" />
+        <e p="ParticleSeek1.cs" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="BillingMode.json" t="Include" />
+        </e>
+        <e p="Rythme.cs" t="Include" />
+        <e p="SoundTrigger.cs" t="Include" />
+        <e p="SoundTrigger1.cs" t="Include" />
+        <e p="SoundTrigger3.cs" t="Include" />
+        <e p="SoundTrigger4.cs" t="Include" />
+        <e p="spawn.cs" t="Include" />
+        <e p="TestInterface" t="Include">
+          <e p="Interface.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+      <e p="Unity_Project.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

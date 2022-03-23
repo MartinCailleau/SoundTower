@@ -16,7 +16,7 @@ public class SoundTrigger : MonoBehaviour {
         // Le marche devient rouge
         GetComponent<Renderer>().material.SetColor("_Color", Color.red);
 
-        GetComponent<Animator>().SetBool("colorChange", true);
+      //  GetComponent<Animator>().SetBool("colorChange", true);
 
         // On change la seed de l'algoritme random, pour avoir un tirage plus aléatoire.
         Random.InitState((int)Time.time);
@@ -31,7 +31,7 @@ public class SoundTrigger : MonoBehaviour {
         yield return new WaitForSeconds(Random.Range(0.5f,2f));
         // Une fois l'attente terminé. On arrête la lecture du son.
         GetComponent<AudioSource>().Stop();
-        GetComponent<Animator>().SetBool("colorChange", false);
+       // GetComponent<Animator>().SetBool("colorChange", false);
         // On marche redevient blanche.
         GetComponent<Renderer>().material.SetColor("_Color", Color.white);
     }
